@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+body{
+    background:#f9e933;
+    
+}
+
+header, main, footer{
+    min-width: 855px;
+}
+
+footer{
+    height: 400px;
+}
+header .container, main .container, footer .container{
+    min-width: 855px;
+    margin: auto;
+}
+header{
+    background: white;
+    overflow: auto;
+}
+header h1{
+    float: left;
+    width: 570px;
+    font-size: 60px;
+    font-family: 'Staatliches', cursive;
+    color: brown;
+    margin: 20px;
+}
+header nav{
+    float: right;
+    width: 285px;
+}
+main{
+    background: white;
+}
+
+img{
+    float: left;
+    width: 70px;
+    height: 100px;
+    
+}
